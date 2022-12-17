@@ -1,0 +1,23 @@
+∨, ∧, ¬, →, ↔ to abbreviate,
+respectively, “or”, “and”, “not”, “implies”, and “iff” (if and only if). It also
+uses the quantifiers, ∀x and ∃x to abbreviate the English “for all x” and “there exists
+x”
+
+“∃!y” is shorthand for “there is a unique y”.
+
+the fragment ∃!y[y2 = x ∧ y > 0]
+is a formula, and makes an assertion about the free variable x
+
+When we say “the equation
+ax + b = 0 can always be solved in R (assuming a 6 = 0)”, we are really asserting that
+∀a, b[a 6 = 0 → ∃x[a · x + b = 0]] 
+
+ when we say that the commutative law, x · y = y · x, holds in
+R, we are really asserting the sentence ∀x, y[x · y = y · x].
+
+GP ⊢ ∀xyz[x · y = x · z → y = z]. This turnstile symbol “⊢”
+is read “proves”
+
+(with “∀x” meaning “for all x ∈ G”
+
+A group is a model (G; ·) for the axioms GP = {γ1, γ2}

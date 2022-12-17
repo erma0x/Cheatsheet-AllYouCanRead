@@ -1,0 +1,15 @@
+How data science is conducted
+The process of analyzing and acting upon data is iterative rather than linear, but this is how the data science lifecycle typically flows for a data modeling project:
+
+Planning:  Define a project and its potential outputs.
+
+Building a data model:  Data scientists often use a variety of open source libraries or in-database tools to build machine learning models. Often, users will want APIs to help with data ingestion, data profiling and visualization, or feature engineering. They will need the right tools as well as access to the right data and other resources, such as compute power.
+
+Evaluating a model:  Data scientists must achieve a high percent of accuracy for their models before they can feel confident deploying it. Model evaluation will typically generate a comprehensive suite of evaluation metrics and visualizations to measure model performance against new data, and also rank them over time to enable optimal behavior in production. Model evaluation goes beyond raw performance to take into account expected baseline behavior.
+
+Explaining models:  Being able to explain the internal mechanics of the results of machine learning models in human terms has not always been possible—but it is becoming increasingly important. Data scientists want automated explanations of the relative weighting and importance of factors that go into generating a prediction, and model-specific explanatory details on model predictions.
+
+Deploying a model:  Taking a trained, machine learning model and getting it into the right systems is often a difficult and laborious process. This can be made easier by operationalizing models as scalable and secure APIs, or by using in-database machine learning models.
+
+Monitoring models:  Unfortunately, deploying a model isn’t the end of it. Models must always be monitored after deployment to ensure that they are working properly. The data the model was trained on may no longer be relevant for future predictions after a period of time. For example, in fraud detection, criminals are always coming up with new ways to hack accounts.
+
