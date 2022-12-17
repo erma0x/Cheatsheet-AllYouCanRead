@@ -1,0 +1,11 @@
+Repair Permissions
+
+After you have identified and fixed the underlying cause (see below), you'll want to repair the permissions:
+
+cd /path/to/repo.git
+sudo chgrp -R groupname .
+sudo chmod -R g+rwX .
+find . -type d -exec chmod g+s '{}' +
+
+
+

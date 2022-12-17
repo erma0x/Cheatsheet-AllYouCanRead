@@ -1,0 +1,27 @@
+One codebase tracked in revision control, many deploys
+
+Explicitly declare and isolate dependencies
+
+Store config in the environment
+
+Treat backing services as attached resources
+
+Strictly separate build and run stages
+
+Execute the app as one or more stateless processes
+
+Export services via port binding
+
+Maximize robustness with fast startup and graceful shutdown
+
+Processes should also be robust against sudden death
+
+Keep development, staging, and production as similar as possible
+Make the time gap small
+Make the tools gap small: keep development and production as similar as possible.
+
+A twelve-factor app never concerns itself with routing or storage of its output stream. 
+the stream can be sent to a log indexing and analysis system such as Splunk, or a general-purpose data warehousing system such as Hadoop/Hive.
+
+
+Run admin/management tasks as one-off processes

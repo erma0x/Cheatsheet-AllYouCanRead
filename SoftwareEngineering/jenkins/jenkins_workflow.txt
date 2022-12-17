@@ -1,0 +1,11 @@
+Jenkins workflow:
+    Create a git repository or use an existing one
+    Dev team have the responsibility to commit the code to Dev-Branch
+    Jenkins will fetch the code from Github and will map with the job enabled for a specific task
+    We will make sure that CI and CD is done for the job/task
+    Jenkins will pull the code and will enter the commit phase of the task
+    Jenkins then will compile code and its called build phase of the task
+    The code is deployed by Jenkins after the code is merged to Master branch by DevOps team and the job is started for a specific application
+    The code is ready to be deployed and enter the deployment phase cycle
+    The code after deployed from Jenkins then get deployed to the server using docker container
+    After the code is working fine in staging server with unit testing, Same code then is deployed on the production server

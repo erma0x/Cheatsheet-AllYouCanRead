@@ -1,0 +1,28 @@
+#  1   create and switch to 'my-branch-test'
+git checkout -b my-branch-test
+
+#  2
+Modify your code in this branch
+
+#  3
+git commit
+
+#  4  switch to main
+git checkout main
+
+#  5  
+git merge my-branch-test
+
+#  6  delete my-branch-test
+git branch -d my-branch-test
+
+
+
+
+
+################
+# Additional commands
+
+#push my-branch to remote repo
+git push --set-upstream origin my-branch
+

@@ -1,0 +1,35 @@
+MYPROJECT
+├── LICENSE.md
+├── MYPROJECT
+│   ├── app.py
+│   ├── common
+│   │   ├── classproperty.py
+│   │   ├── constants.py
+│   │   ├── game_enums.py
+│   │   └── __init__.py
+│   ├── data
+│   │   ├── data_loader.py
+│   │   ├── game_round_settings.py
+│   │   ├── __init__.py
+│   │   ├── scoreboard.py
+│   │   └── settings.py
+│   ├── game
+│   │   ├── content_loader.py
+│   │   ├── game_item.py
+│   │   ├── game_round.py
+│   │   ├── __init__.py
+│   │   └── timer.py
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── resources
+│   └── tests
+│       ├── __init__.py
+│       ├── test_game_item.py
+│       ├── test_game_round_settings.py
+│       ├── test_scoreboard.py
+│       ├── test_settings.py
+│       ├── test_test.py
+│       └── test_timer.py
+├── pylintrc
+├── README.md
+└── .gitignore

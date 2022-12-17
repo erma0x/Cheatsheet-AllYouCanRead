@@ -1,0 +1,6 @@
+# img on jupyter
+
+img/myimage.png
+
+%%html <img src = "img/myimage.png", width=400, heigth=200 >
+![title](img/myimage.png)

@@ -1,0 +1,97 @@
+#Examples of usability and flexibility of SQL 
+
+_________________
+SELECT tab1.name tab1.surname FROM (SELECT * FROM employees)
+WHERE department NOT IN (SELECT department FROM deparmnents)  tab1
+
+_________________
+SELECT ROUND(AVG(salary)) 
+FROM employees
+GROUP BY deparment
+ORDER BY ROUND(AVG(salary)) DESC
+HAVING ROUND(AVG(salary)) > 15000
+
+_________________
+SELECT department employ_department FROM deparments
+# create new column named 'employ_department' with deparment column from deparments table
+
+_________________
+SELECT name
+
+CASE
+        WHEN salary > 10000 THEN 'UNDER PAID'
+        WHEN salary > 10000 AND salary < 16000 THEN 'PAID WELL'
+        ELSE 'PAID VERY WELL'
+END
+FROM employees
+
+_________________
+
+SELECT SUM( CASE WHEN salary < 10000 THEN 1 ELSE 0 ) AS underpaid_employees,
+            SUM( CASE WHEN salary > 10000 THEN 1 ELSE 0 ) AS paidwell_employees
+
+FROM employees
+
+________________
+# JOIN
+SELECT name
+FROM employees e, region r
+WHERE e.department_id = r.department_id
+________________
+SELECT name
+FROM employees INNER JOIN deparments
+ON employees.id =deparments.id
+INNER JOIN sales
+ON employees.id = sales.id 
+
+SELECT DISTINCT name
+FROM departments
+
+________________
+UNION
+
+UNION ALL
+_______________SYNTAX___________________________
+
+SELECT
+
+FROM
+
+
+WHERE
+
+NOT
+IN
+IS
+
+ROUND
+MIN
+MAX
+AVG
+
+AS
+
+AND
+OR
+
+ANY
+ALL
+
+ORDER BY DESC/ASC
+GROUP BY
+HAVING
+
+UNION
+
+INNER JOIN
+RIGHT JOIN
+LEFT JOIN
+CROSS JOIN
+
+CREATE VIEW
+
+LAG
+
+NTIL
+__________________________
+

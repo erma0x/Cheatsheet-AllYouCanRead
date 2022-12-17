@@ -1,0 +1,19 @@
+pytest tutorial commands
+project
+|_ Dockerfile
+|_ readme.txt
+|_ test
+        |_ test_my_module.py 
+|_ app
+        |_my_module.py 
+
+$ pytest . 
+test all the file
+
+
+$ pytest test_my_module.py
+test only one file
+
+
+$ pytest test_my_module.py::my_function
+test only one function of one file

@@ -1,0 +1,23 @@
+
+
+If the C variant needs x hours less, then I'd invest that time in letting the algorithms run longer/again
+
+"invest" isn't the right word here.
+
+    Build a working implementation in Python. You'll finish this long before you'd finish a C version.
+
+    Measure performance with the Python profiler. Fix any problems you find. Change data structures and algorithms as necessary to really do this properly. You'll finish this long before you finish the first version in C.
+
+    If it's still too slow, manually translate the well-designed and carefully constructed Python into C.
+
+    Because of the way hindsight works, doing the second version from existing Python (with existing unit tests, and with existing profiling data) will still be faster than trying to do the C code from scratch.
+
+This quote is important.
+
+Thompson's Rule for First-Time Telescope Makers
+It is faster to make a four-inch mirror and then a six-inch mirror than to make a six-inch mirror.
+
+Bill McKeenan
+Wang Institute
+
+--S.Lott

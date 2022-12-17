@@ -1,0 +1,31 @@
+usa with open(filename)
+
+
+usa f'stringa {nome}'
+
+usa with open invece di try e finally
+
+
+se usi exception mettici il tipo di errore
+
+invece di x == True     , isistance(x,True) \
+
+oppure va anche bene x is True
+
+if len(x)      if x 
+
+
+i = zip(a, b)
+
+a[i]
+
+invece del contatore c  uso  for c,i in enumerate(l)
+
+
+time.time()  -> time.perf_counter()
+
+
+printinv vs logging 
+
+
+package the code

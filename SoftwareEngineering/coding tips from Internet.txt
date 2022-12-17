@@ -1,0 +1,97 @@
+TIPS CODE BETTER
+
+1. Avoid abbreviating variables (pw => password) 
+2. Limit function arguments (aim for 3) 
+3. Simplify conditional expressions 
+4. Declare variables close to their usage 
+5. Avoid unintended consequences in functions 
+6. Functions should do one thing (avoid long functions) 
+7. Stop writing zombie code
+8. Be consistent
+9. Code in the morning
+10. Focus on one goal
+11. Take care of yourself
+12. Put in the time (leave your job)
+
+++++++++++++++++++++++++++++++++++++++++
+
+TIPS FOR DEVELOPER
+
+1 coding by Hand
+2 Grasp the foundamentals
+3 Learn by doing
+4 Ask for help
+5 Seek out more online resources
+6 Don't just read the code, think with it
+7 Take breaks when debugging
+
+ ++++++++++++++++++++++++++++++++++++++++
+ 
+ BUILD SKILLS
+
+ - build apps or programs
+ - take personal project and do it
+ - be brutally honest with myself
+ - dive in into works
+ - join the big leagues and work with the hardest motherfuckers for improve quickly
+ - start failing
+ - take actions    
+ - Keep the readers in your test function
+ - Accept redundancy if it supports simplicity
+ - Refactor production code before adding test helpers
+ - Don't bury critical information in test helpers
+ - Go crazy with long test names
+ 
+ ++++++++++++++++++++++++++++++++++++++++
+ 
+ CODE ADVICE code project
+ 
+ - Make it simple
+ - comprensiblile is better than complex
+ - make it reproducible
+ - modular architecture
+ - use code from others
+ 
+++++++++++++++++++++++++++++++++++++++++
+ 
+ OOP object oriented design
+    
+    only one level of indentation
+    don't use else statement
+    divide and conquer principle
+    interactrion must be simple
+    do not abbreviate
+    keep class small, max 10 method each and each method with max 10 line of code
+    limiting the object creation
+ 
+
+ ADVICE JUNIOR 
+
+ - We have no idea whats about to happen
+ - We don't want to bother you
+ - We're not sure we're good enough
+ - We get bored too
+ - We know what you think of us
+6 - We can only be as good as you are
+
+ ++++++++++++++++++++++++++++++++++++++++
+
+ FUNCTIONS
+ 	max 6 or 7 line of code
+	do not use booleans as arguments
+	use max 2 arguments
+	 
+ 
+ OOP object oriented design
+    
+    max 10 modules
+    only one level of indentation
+    don't use else statement
+    divide and conquer principle
+    interactrion must be simple
+    do not abbreviate
+    keep class small, max 10 method each and each method with max 10 line of code
+    limiting the object creation
+ 
+
+

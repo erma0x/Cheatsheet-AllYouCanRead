@@ -1,0 +1,5 @@
+sudo java -jar RepoCleaner/bfg.jar --strip-blobs-bigger-than 10M /home/moebius/Documents/PROJECT/.git
+
+
+
+sudo java -jar /home/user/Downloads/software/RepoCleaner/bfg.jar --strip-blobs-bigger-than 20M /home/user/Documents/Business/project/.git

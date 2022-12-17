@@ -1,0 +1,8 @@
+# nbconvert: transform .ipynb to pdf
+
+# 1.
+ipython nbconvert --to html my_file.ipynb  
+
+# 2.
+wkhtmltopdf my_file.html my_file.pdf   
+

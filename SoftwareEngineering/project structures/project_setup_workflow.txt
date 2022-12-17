@@ -1,0 +1,8 @@
+mkdir ProjectName
+cd ProjectName/
+git init
+git remote add origin git@github.com:erma0x/ProjectName.git
+
+touch readme.md
+git add .
+

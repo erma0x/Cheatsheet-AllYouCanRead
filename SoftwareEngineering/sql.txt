@@ -1,0 +1,12 @@
+CREATE DATABASE securities_master;
+
+USE securities_master;
+
+CREATE USER 'sec_user'@'localhost' IDENTIFIED BY 'password';
+
+
+mysql> CREATE USER 'sec_user'@'localhost' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON securities_master.* TO 'sec_user'@'localhost';
+mysql> FLUSH PRIVILEGES;
+
+Con le tre righe precedenti si crea e si autorizza l’utente ad usare il db ‘securities_master’ e si applica tali privilegi. D’ora in poi qualsiasi interazione che si verifica con il database si dovrà far uso dell’utente ‘sec_user’.

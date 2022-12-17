@@ -1,0 +1,12 @@
+➜ git:(main) git rev-list --objects --all \
+  | grep "$(git verify-pack -v .git/objects/pack/*.idx \
+           | sort -k 3 -n \
+           | tail -10 \
+           | awk '{print$1}')"
+7c201de89391fb3c015db68ed0d7487c6a7101d9 src/data/forex/EURUSD/EUR_USD.tar.xz
+64c062cca5553eab6cf034ca2a35c44aefabf38f docs/white-paper.odt
+980e5c800cbde9d32875ec9356260a1e05eb7394 docs/business_model/why Expert Advisor.pdf
+12e93a2fd3f525a59f008878f7124c0bdd38a26c docs/researches/Robo-Advisors-Investing-through-Machines.pdf
+5ac41c18a9cddcbf93659d0dfe430c800f8b6e4f docs/researches/beketov2018.pdf
+
+➜  git:(main) git filter-branch –tree-filter ‘rm -rf `cat src/data/forex/EURUSD/EUR_USD.tar.xz | cut -d ” ” -f 2` ‘ –prune-empty

@@ -1,0 +1,19 @@
+##   Installation       
+
+     $ pip install pytest
+
+
+        
+##   Create virtual enviroment  
+
+       $    mkdir pytest_project
+       $    cd pytest_project
+       $    python3 -m venv pytest-env
+
+
+
+## Activate virtual enviroment 
+    
+       $ source pytest-env/bin/activate
+
+

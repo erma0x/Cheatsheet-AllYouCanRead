@@ -1,0 +1,18 @@
+# Setup Express project
+npm init -y
+npm i express
+
+
+# Nodemon
+npm i --save-dev nodemon
+
+create into package.json
+
+"scripts":{"devStart":"nodemon server.js"}
+
+
+npm run devStart
+
+
+
+

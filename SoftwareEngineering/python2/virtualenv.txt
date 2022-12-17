@@ -1,0 +1,8 @@
+# see the path of your python2
+which python2
+
+# create
+virtualenv -p <your path>/python2 venv
+
+# activate
+source venv/bin/activate

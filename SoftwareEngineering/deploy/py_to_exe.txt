@@ -1,0 +1,7 @@
+WINE_Pyinstaller
+
+# create .exe from .py
+pyinstaller 'my-script.py' --onefile
+
+cd dist/
+./'provaciao.py'

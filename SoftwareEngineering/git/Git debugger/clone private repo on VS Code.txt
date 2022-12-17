@@ -1,0 +1,7 @@
+CLONE PRIVATE REPO ON VS CODE
+           
+           open Command palette
+           
+           insert Git: Clone
+           
+           paste url link of the private repo

@@ -1,0 +1,30 @@
+
+# GENERATOR
+generator = (i+1 for i in range(10))
+type(generator)
+next(generator)
+sum(generator)
+
+
+def g(x):
+	while x<100:
+		yield x
+		x = x +1
+		
+		
+def g(x):
+	while x<100:
+		yield x
+		x = x * x
+		
+gen = g(2)
+next(gen)
+
+
+# ASSERTION
+
+```
+def g(x):
+	assert x > 0
+	return sqrt(x) 
+```

@@ -1,0 +1,50 @@
+DOCKER image construction workflow example
+
+
+1 create a Dockerfile
+
+        Examples of a Dockerfile
+
+        FROM python:slim
+        RUN pip install requests
+        COPY my_script.py /tmp/
+        CMD ["python", "/tmp/my_script.py"]
+
+
+        Example of Flask app
+
+        FROM python:slim
+        COPY app.py /app/
+        WORKDIR /app
+        RUN pip install flask
+        RUN export FLASK_APP=app.py
+        EXPOSE 5000
+        CMD ["/usr/local/bin/flask", "run", "--host", "0.0.0.0"]
+
+
+2 docker build --tag python-docker .
+        sudo docker build -t my_script .
+
+3 run the image
+        sudo docker run sudo docker run hello
+
+        example
+        docker run -d -it --name myweb1 -p 192.168.2.1:80:80 
+        -d : deamonize (run continously)
+        -i : interactive session
+        -t : allocate pseudo terminal for the container
+        --name : specify the unique container name
+        -p : specify the ip address
+       
+       
+OTHER USEFUL COMMANDS
+   docker ps            : see the status of lunched docker containers
+   docker images        : see the aviable docker images
+   docker kill          : stop
+   
+   
+   # RUN COMMAND 
+   sudo docker exec ${CONTAINER_ID or CONTAINER_NAME} <command>
+   e.g.
+   sudo docker exec ids1234 python3 /var/usr/script.py
+   

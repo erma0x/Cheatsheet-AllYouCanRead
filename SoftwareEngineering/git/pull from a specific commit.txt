@@ -1,0 +1,17 @@
+# make sure you fetch from the origin first
+$ git fetch origin
+
+# view code at COMMIT_ID (abc123)
+$ git checkout abc123
+
+# bring only COMMIT_ID (abc123)
+# to your branch
+# assuming your branch is master
+$ git checkout master
+$ git cherry-pick abc123
+
+# bring all changes up to 
+# COMMIT_ID (abc123) to your branch
+# assuming your branch is master
+$ git checkout master
+$ git merge abc123

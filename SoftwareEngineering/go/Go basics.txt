@@ -1,0 +1,5 @@
+go build hello.go      # compile
+
+./hello.exe                   # start
+
+go mod init foo/bar      # initialize pkg

@@ -1,0 +1,4 @@
+git remote set-url origin https://github.com/erma0x/project.git
+
+# check current remote
+git remote -v

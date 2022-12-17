@@ -1,0 +1,23 @@
+# Build and activate your virtualenv with django inside it
+
+1. sudo pip3 install virtualenv 
+2. virtualenv venv 
+3. virtualenv -p python3 .
+4. source bin/activate
+5. pip3 install django == 2.0.8
+
+
+# check connection between backend and frontend
+           # to do each time that you change model.py of some app
+           1. python manage.py makemigrations
+           2. python3 manage.py migrate
+
+# create admin 
+           python3 manage.py createsuperuser
+
+# create project called 'products'
+           # you have to add the name also to settings.py in INSTALLED_APPS
+           python manage.py startapp products
+
+# activate python shell with the django project's objects
+           python manage.py shell

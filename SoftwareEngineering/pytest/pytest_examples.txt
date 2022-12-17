@@ -1,0 +1,94 @@
+import pytest         into my_file.py
+
+import my_file       into test_my_file.py
+
+
+
+pytest test_my_file.py  -v -x
+
+
+pytest test_my_file.py
+
+pytest test_my_file.py -v 
+
+pytest test_my_file.py -k  'add'   # run test that name function with add
+
+pytest test_my_file.py -x    # exit at first failure
+
+
+
+def test_raises_exception_on_non_string_arguments():
+    with pytest.raises(TypeError):
+        my_function( 13124 )
+        # rise error if the type is not string
+        
+        
+        assert 'pattern' in string
+        assert 'hello' is str
+        assert 'hello' == hello
+        
+       
+# pyTest Fixtures
+Create test-istances and particular cases for testing     .   
+Fixture functions are created by marking them with the @pytest.fixture decorator. 
+
+
+### METHOD 1: reinitialize my-obj 
+
+import pytest
+
+#### my error class
+class ErrorLowAmount(Exception):
+    pass
+    
+### my class to test
+class myObj:
+        def __init__(self, amount):
+                self.amount = amount
+                
+        def check_account(self, amount):
+                if  1000 < amount:
+                    raise Error_low_amount('Not enough amount')
+                    
+                    
+### METHOD 2: import my-obj
+
+from myObj import myObj
+import pytest
+
+
+# take class myObj and give myObj(20) istance
+# note that myObj != myobj
+
+@pytest.fixture
+def myobj(): 
+    return myObj(20)
+
+
+def test_default_initial_amount(myobj):
+    assert myobj.amount == 20
+                    
+                    
+                   
+$ pytest --fixtures
+                    
+This lists out some inbuilt pytest fixtures, as well as our custom fixtures. 
+The docstrings will appear as the descriptions of the fixtures.
+
+                   
+                   
+## Parametrized Test Functions
+
+@pytest.mark.parametrize("earned,spent,expected", [
+    (30, 10, 20),
+    (20, 2, 18),
+])
+def test_transactions(earned, spent, expected):
+    my_wallet = Wallet()
+    my_wallet.add_cash(earned)
+    my_wallet.spend_cash(spent)
+    assert my_wallet.balance == expected           
+                    
+
+
+       

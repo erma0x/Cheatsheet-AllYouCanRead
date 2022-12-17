@@ -1,0 +1,126 @@
+# Express
+res.redirect('/')
+
+event.preventDefault();
+
+app.use(express.static('index.html'))
+
+
+
+app.get('/add/:word/:score', addWord);
+function addWord( req, res) {
+	var data = req.params
+	var word = data.word
+
+	reply = " hello " + word
+	
+	res.send(reply)
+}
+
+
+my-web
+  └── package.json
+  └── app.js
+  └── /bin
+         └── www
+  └── /views
+  └── /routes
+         └── index.js
+  └── /public
+         └── /images
+         └── /javascripts
+         └── /stylesheets
+         
+# document
+# write html
+	document.createElement('li').innerHTML = NEW;
+	document.all.textContent ='Hello'
+		   .querySelector
+		   .querySelectorAll
+		   .addEventListener
+		   .createElement
+
+document.domain
+	.URL
+	.title
+	.doctype
+	.head
+	.body
+	.all
+	.all[10]
+	.links
+	.images
+
+
+
+# events
+	.onclick
+	.onmouseover
+	.onchange
+	.onkeydown
+	.onkeyup
+	.onload
+	.onblur
+	...
+	
+# actions
+	fetch
+	async
+	await
+
+
+# FUNCTIONS
+setInterval(function, milliseconds)
+
+localStorage.getItem('counter')
+localStorage.setItem('counter', counter)
+
+fetch('url')
+.then(response => response.json())
+.then(data => data['sub'] )
+
+
+# DOCUMENTS examples
+
+document.querySelector('h1')
+			('h1').innerHTML
+			('form').onsubmit = function()
+			('#id').value
+			('#hello').style.color = 'red'
+			('.class')
+			('button').onclick
+			('button').onchange = function()
+			("#id").append(li);
+			('#id').disable = False
+			
+document.querySelectorAll('button').forEach(function)
+
+
+document.addEventListener('DOMContentLoaded','my-func')
+document.addEventListener('DOMContentLoaded',function() )
+
+document.domain
+document.URL
+document.title
+document.doctype
+document.head
+document.body
+document.all
+document.all[10]
+document.forms[0]
+document.links
+document.images
+		   
+
+       		
+
+
+
+
+
+
+
+
+
+
+

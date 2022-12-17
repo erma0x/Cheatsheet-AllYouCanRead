@@ -1,0 +1,24 @@
+1.
+# example with my_project
+mkdir my_project && cd my_project
+
+2.
+# Windows
+c:\path\to\python\launcher\python -m venv venv
+venv\Scripts\activate.bat
+
+# Linux
+python3 -m venv venv
+source venv/bin/activate
+
+
+3.
+(venv) $ python -m pip install dash==1.13.3 pandas==1.0.5
+
+
+4. python app.py
+
+5. seach http://localhost:8050
+
+
+3cfd9bbf-8676-4c82-b44b-93fc69bd4ede
